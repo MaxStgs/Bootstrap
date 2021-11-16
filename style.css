@@ -1,0 +1,44 @@
+/*при ширине экрана 1200px и выше*/
+@media (min-width: 1200px){
+#lh, #rp {
+    background: #f5d799;
+}
+#rh{
+    color: #fe1f20;
+    font-weight: bold;
+}
+#lp {
+    color: #1f1cfb;
+    font-weight: bold;    
+}
+}
+
+/*При ширине экрана от 992px до 1199px*/
+@media (min-width: 992px) and (max-width:1199px){
+    #rh, #kt, #lp {
+        background: #ffbfcb ; 
+    }
+    #rh {
+        font-weight: bold;
+    }
+}
+
+/*При ширине экрана от 768px до 991px*/
+@media (min-width: 768px) and (max-width:991px){
+    #rh, #kt {
+        font-size: 22px;
+    }
+
+    #lm, #rm {
+        background:#f2b0fa ;
+    }
+}
+
+/*При ширине экрана 767px и меньше*/
+@media (max-width: 767px){
+    .container {
+        background: #ffffff;
+        color: rgb(13, 129, 9);
+        font-size: 28px;
+    }
+} 
